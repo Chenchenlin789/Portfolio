@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Didact+Gothic&family=Work+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Didact+Gothic&family=Fjalla+One&family=Work+Sans&display=swap');
+
+body {
+    font-family: 'Didact Gothic', 'Work Sant', sans-serif;
+}
+p {
+    margin-top:0;
+}
+
+h2{
+    margin-bottom: 0;
+}
+
+/* first page*/
+
+header p {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    margin-top: 0 auto;
+    font-size: 20px;
+}
+
+header h1 {
+    text-align: center;
+    margin: 8% 25px;
+   font-size: 100px;
+}
+
+img {
+    height: 780px;
+    margin: 0 30%;
+    padding: 0 3%;
+}
+
+header h2 {
+    text-align: center;
+    font-size: 140px;
+    font-family: 'Didact Gothic', 'Work Sant', sans-serif;
+    margin: 8%;
+    padding-left: 30px;
+}
+
+
+/* main */
+main section:first-child {
+    background-image: url(../img/portfolio2.jpg);
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    font-weight: bold;
+    color: white;
+    margin: 0 auto;
+    padding: 50px 8%;
+
+}
+
+/* class */
+
+.black {
+    color:black;
+}
+
+
+.bg {
+    padding: 50px 8%;
+    background-color: rgba(0,0,0,.4);
+}
+
+.bg1 {
+    padding: 110px 8%;
+}
+
+section p {
+    width: 600px;
+    height: 23px;
+    margin: 0 10%;
+    padding: 8% 0 0;
+    color: #9E9E9E;
+    font-size: 30px;
+}
+
+section h2 {
+    width: 600px;
+    margin: 0 5%;
+    padding: 1.5% 5%;
+    color: #ffffff;
+    font-size: 112px;
+
+}
+
+section:nth-of-type(2) p {
+    width: 600px;
+    height: 23px;
+    margin: 0 10%;
+    padding: 8% 0 0;
+    color: black;
+    font-size: 30px;
+}
+
+section:nth-of-type(2) h2 {
+    width: 600px;
+    margin: 0 5%;
+    padding: 1.5% 5%;
+    color: black;
+    font-size: 112px;
+
+}
+
+button {
+    width: 130px;
+    margin: 10%;
+    padding: 15px 0;
+    color: #ffffff;
+    font-size: 20px;
+    background-color: transparent;
+    border: 1px solid #9E9E9E;
+    text-align: center;
+
+}
+
+section h3 {
+    font-size: 165px;
+    text-align: right;
+    padding-right: 8%;
+    padding-bottom: 6%;
+    color:#9E9E9E;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+main section:nth-of-type(3) {
+    background-image: url(../img/portfolio4.jpg);
+    font-family: 'Fjalla One', sans-serif;
+    margin: 0;
+}
+
+main section:nth-of-type(4) {
+    background-image: url(../img/portfolio5.png);
+    color: black;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.back2 {
+    background-image: url(../img/portfolio3.png);
+    margin:0 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+/* main section:nth-child(even) {
+    color: black;
+}
+
+
+main section:nth-child(odd) {
+    color: white;
+} */
+
+button:nth-of-type(even):hover {
+    background: red;
+  }
+
+  button:nth-of-type(odd):hover {
+    background: #ccc;
+  }
+
+  button:hover+h3 {
+    color: #777;
+  }
+ 
+section:last-of-type {
+    background-color: black;
+}
+
+section:last-of-type p{
+    color: 666666;
+    margin: 91px 100px 240px 640px;
+}
+
+section:last-of-type h4{
+    padding: 91px 376px 80px 640px;
+    color: white; font-size: 60px;
+}
+
+main section:last-of-type h2 {
+    font-size: 160px;
+    width: 1500px;
+    height: 36px;
+    padding: 5% 10%;
+
+}
+
+
+
+/* footer */
+footer{
+    padding: 100px 0;
+    text-align:center;
+  } 
+
+footer h2 {
+    font-size: 130px;
+    margin: 10%;
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+
+footer p{
+    animation: bounce 1s ease infinite;
+}
+
+@keyframes bounce {
+from {
+    transform: scale(0,4); 
+}
+to {
+    transform: scale(1);
+    }
+}
